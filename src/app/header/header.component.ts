@@ -14,5 +14,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  public openMenuDropdown() {
+    document.getElementById('menus').style.width = '100%';
+  }
+
+  public oloseMenuDropdown() {
+    document.getElementById('menus').style.width = '0%';
+  }
+
 
 }
