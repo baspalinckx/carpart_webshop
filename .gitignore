@@ -1,0 +1,32 @@
+# User-specific configurations
+.idea/
+*.iml
+
+*node_modules/*
+
+# Gradle generated files
+.gradle/
+
+# Signing files
+.signing/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+
+# Built application files
+/*/build/
+/build
+
+/captures
+.externalNativeBuild
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#API
+/app/src/main/res/values/secrets.xml
+
+# Signing config in properties file
+keystore.properties
