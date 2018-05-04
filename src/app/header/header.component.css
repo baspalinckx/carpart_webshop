@@ -166,6 +166,7 @@ div.col-md-2.dot-four-pic {
   margin-top: -20px;
   left: 50%;
   margin-left: -20px;
+  cursor: pointer;
 }
 
 .overlay{
@@ -181,16 +182,16 @@ div.col-md-2.dot-four-pic {
 
 }
 
-.overlay-content{
-  text-align: center;
-  position:relative;
-  top: 10%;
-  left: 25%;
-  right: 25%;
-  width: 100%;
-  margin-top: 30px;
+/*.overlay-content{*/
+  /*text-align: center;*/
+  /*position:relative;*/
+  /*top: 10%;*/
+  /*left: 25%;*/
+  /*right: 25%;*/
+  /*width: 100%;*/
+  /*margin-top: 30px;*/
 
-}
+/*}*/
 
 .overlay-content button{
   display: block;
@@ -206,6 +207,7 @@ div.col-md-2.dot-four-pic {
   padding-top: 30px;
   width: 50px;
   height: 55px;
+  cursor: pointer;
 }
 
 .container{
