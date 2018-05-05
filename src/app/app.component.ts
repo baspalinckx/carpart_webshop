@@ -9,42 +9,34 @@ import {animate, group, query, style, transition, trigger} from "@angular/animat
   styleUrls: ['./app.component.css'],
   animations: [
     trigger('routeState', [
-      transition('rootPage <=> *', [
-        group([
-          query(':enter', [
-            style({
-              transform: 'translateY(-400px)',
-              opacity: 0
-            }),
-            animate('300ms ease-out')
-          ], {optional: true}),
-          query(':leave', [
-            animate('300ms ease-out', style({
-              transform: 'translateY(600px)',
-              opacity: 0
-            }), )
-          ], {optional: true})
-        ])
-      ]),
-      // transition('menuPage <=> *', [
-      //   group([
-      //     query(':enter', [
-      //       style({
-      //         // marginTop: '250px',
-      //         transform: 'translateY(-100%)',
-      //         opacity: 0
-      //       }),
-      //       animate(300)
-      //     ], {optional: false}),
-      //     query(':leave',[
-      //       style({
-      //         transform: 'translateY(100%)',
-      //         opacity: 0
-      //       }),
-      //       animate(300)
-      //     ], {optional: false})
-      //   ])
-      // ])
+
+      transition( '* => *', [
+
+        query(':enter',
+          [
+            style({ opacity: 0 })
+          ],
+          { optional: true }
+        ),
+
+        query(':leave',
+          [
+            style({ opacity: 1 }),
+            animate('0.2s', style({ opacity: 0 }))
+          ],
+          { optional: true }
+        ),
+
+        query(':enter',
+          [
+            style({ opacity: 0 }),
+            animate('0.2s', style({ opacity: 1 }))
+          ],
+          { optional: true }
+        )
+
+      ])
+
     ])
   ]
 })

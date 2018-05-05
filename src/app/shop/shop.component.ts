@@ -1,5 +1,4 @@
 import {Component, HostBinding, OnInit} from '@angular/core';
-import {routeSlideStateTrigger} from "../shared/route-animations";
 
 @Component({
   selector: 'app-shop',
