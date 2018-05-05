@@ -1,4 +1,54 @@
-.box{
-  padding-top: 50px;
-  padding-left:50px;
+
+
+@font-face {
+  font-family: 'Speed'; /*a name to be used later*/
+  src: url('../../assets/fonts/speed.ttf'); /*URL to font*/
 }
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Speed';
+  /*font-weight: bold;*/
+}
+
+/*.row-nopadding{*/
+  /*margin-right: 0;*/
+  /*margin-left: 0;*/
+/*}*/
+.row-nopadding > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+
+.col-lg-12{
+  border: 1px solid black;
+  height: 40%;
+  overflow: hidden;
+
+}
+
+.col-lg-12 img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.aboutTitle{
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  position: absolute;
+  /*width: 100%;*/
+  /*height: 40%;*/
+  /*top:0;*/
+  /*padding-left: 35%;*/
+  /*padding-top: 35%;*/
+  /*background-color: cyan;*/
+
+}
+
+
+
