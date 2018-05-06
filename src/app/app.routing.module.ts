@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {LandingComponent} from "./landing/landing.component";
 import {ShopComponent} from "./shop/shop.component";
-import {HamburgerComponent} from "./hamburger/hamburger.component";
 import {AboutComponent} from "./about/about.component";
 
 
