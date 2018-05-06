@@ -9,7 +9,6 @@ import {AboutComponent} from "./about/about.component";
 const appRoutes: Routes = [
   {path: '', component: LandingComponent, data: {animation: {page: 'rootPage'}}},
   {path: 'shop', component: ShopComponent, data: {animation: {page: 'shopPage'}}},
-  {path: 'menu', component: HamburgerComponent},
   {path: 'about', component: AboutComponent}
 
 
