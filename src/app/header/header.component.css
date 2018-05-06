@@ -11,42 +11,25 @@ h1, h2, h3, h4, h5, h6{
   /*font-family: 'Raleway', sans-serif;*/
   /*font-weight: bold;*/
 }
-
-
-
-
 .col-lg-12{
   background-color: white;
   height: 125px;
   color: black;
-
-  /*border: 1px solid black;*/
-
 }
-
-
-
 .col-md-12,
 .col-sm-12,
 .col-xs-12{
   display: none;
   height: 125px;
-  /*border: 1px solid black;*/
   position: sticky;
 }
 .col-md-4,
 .col-sm-4,
 .col-xs-4{
-  /*border: 1px solid black;*/
   height: 125px;
   text-align: center;
-    /*padding-top: 45px;*/
 }
-
-
-
 @media all and (max-width: 1190px) {
-  /* screen size until 1000px */
   .col-lg-12 {
     display: none;
   }
@@ -86,12 +69,7 @@ h1, h2, h3, h4, h5, h6{
     height: 75px;
     width: 90px;
   }
-
-
-
 }
-
-
 div.col-md-4.pic,
 div.col-sm-4.pic,
 div.col-xs-4.pic{
@@ -103,7 +81,6 @@ div.col-xs-4.pic{
   padding-top: 0px;
 }
 
-
 div.col-md-2.dot-four {
   width: 20%;
   text-align: center;
@@ -111,7 +88,6 @@ div.col-md-2.dot-four {
   vertical-align: middle;
   letter-spacing: 4px;
   padding-top: 43px;
-  /*border: 1px solid black;*/
 }
 
 div.col-md-2.dot-four-pic {
@@ -120,9 +96,7 @@ div.col-md-2.dot-four-pic {
   height: 125px;
   vertical-align: middle;
   letter-spacing: 4px;
-  /*border: 1px solid black;*/
 }
-
 
 .button {
   background-color: white;
@@ -136,23 +110,16 @@ div.col-md-2.dot-four-pic {
   cursor: pointer;
   transition: all 400ms ease;
   letter-spacing: 4px;
-
-
 }
 
 .button:hover{
   letter-spacing: 7px;
   border-bottom: 2px solid black;
-
 }
-
-
 
 .button:focus {
   border-bottom: 2px solid black;
 }
-
-
 
 .img {
   display: block;
@@ -168,7 +135,6 @@ div.col-md-2.dot-four-pic {
   margin-left: -20px;
   cursor: pointer;
 }
-
 .overlay{
   height: 100%;
   width: 0;
@@ -181,27 +147,6 @@ div.col-md-2.dot-four-pic {
   transition: 0.5s;
 
 }
-
-/*.overlay-content{*/
-  /*text-align: center;*/
-  /*position:relative;*/
-  /*top: 10%;*/
-  /*left: 25%;*/
-  /*right: 25%;*/
-  /*width: 100%;*/
-  /*margin-top: 30px;*/
-
-/*}*/
-
-.overlay-content button{
-  display: block;
-  padding: 8px;
-  text-decoration: none;
-}
-
-.hamburger{
-  padding-top: 50px;
-}
 .closeButtonBox img{
   padding-left: 30px;
   padding-top: 30px;
@@ -211,7 +156,7 @@ div.col-md-2.dot-four-pic {
 }
 
 .container{
-  positon: relative;
+  position: relative;
   text-align: center;
   font-size: 35px;
 }

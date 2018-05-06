@@ -11,7 +11,6 @@ import { HeaderComponent } from './header/header.component';
 import { ShopListComponent } from './shop/shop-list/shop-list.component';
 import { ShopItemComponent } from './shop/shop-list/shop-item/shop-item.component';
 import {MatGridListModule} from '@angular/material/grid-list';
-import { HamburgerComponent } from './hamburger/hamburger.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     ShopListComponent,
     ShopItemComponent,
-    HamburgerComponent,
     AboutComponent
   ],
   imports: [

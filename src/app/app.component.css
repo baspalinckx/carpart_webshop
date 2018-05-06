@@ -2,8 +2,6 @@ body{
   width: 100%;
 }
 
-
-
 /deep/ router-outlet~* {
   position: absolute;
   width: 100%;
