@@ -43,11 +43,7 @@ import {animate, group, query, style, transition, trigger} from "@angular/animat
 export class AppComponent {
 
   getAnimationData(outlet: RouterOutlet) {
-    const routeData = outlet.activatedRouteData['animation'];
-    if (!routeData) {
-      return 'rootPage';
-    }
-    return routeData['page'];
+    return outlet.isActivated ? outlet.activatedRoute : '';
   }
 
 }
